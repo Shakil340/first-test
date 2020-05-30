@@ -1,0 +1,35 @@
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+
+}
+a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    position: relative;
+}
+
+.fas.fa-angle-down {
+    position: absolute;
+    left: 66px;
+    font-size: 20px;
+    z-index: 9999;
+    top: 9px;
+ 
+  }
+  a:hover .fas.fa-angle-down{
+      transform: rotate(180deg);
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+      transition: .3s all ease-in-out;
+      -webkit-transition: .3s all ease-in-out;
+      -moz-transition: .3s all ease-in-out;
+      -ms-transition: .3s all ease-in-out;
+      -o-transition: .3s all ease-in-out;
+} 
